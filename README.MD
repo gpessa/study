@@ -1,6 +1,9 @@
 ## Javascript
 * [Recursive functions](recursive-function/index.md)
 
+## CSS
+* [Font display](css/font-display.md)
+
 ## General
 * [Terminal](general/terminal.md)
 * [HTTP Status Codes](general/http-status-codes.md)
