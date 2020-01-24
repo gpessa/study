@@ -1,7 +1,7 @@
 ## Font-display
 Let's talk about the lifetime of a web font:
 
-![Font lifetime](../assets/font-display.png | width=48)
+![Font lifetime](../assets/font-display.png)
 
 
 The font display timeline is based on a timer that begins the moment the user agent attempts to use a given downloaded font face.
