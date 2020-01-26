@@ -4,6 +4,9 @@
 - [Hoisting](js/hoisting.md)
 - [Scope and Context](js/scope-context.md)
 - [Closures](js/closures.md)
+- [Interesting Class](js/interesting-class.md)
+- [Pure functions](js/pure-functions.md)
+- [Regexp](js/regexp.md)
 
 ## CSS
 
@@ -13,6 +16,7 @@
 
 - [Terminal](general/terminal.md)
 - [HTTP Status Codes](general/http-status-codes.md)
+- [AB Testing](general/ab-testing.md)
 
 ## Links to follow
 

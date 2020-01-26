@@ -1,17 +1,19 @@
-## Exercize
+## Exercise
+
 Write a function called power which takes in a base and an exponent. If the exponent is 0, return 1.
 
 #### Sample
+
 ```javascript
-  SAMPLE:
-  power(2, 4) // 16
-  power(2, 3) // 8
-  power(2, 2) // 4 
-  power(2, 1) // 2
-  power(2, 0) // 1
+SAMPLE: power(2, 4); // 16
+power(2, 3); // 8
+power(2, 2); // 4
+power(2, 1); // 2
+power(2, 0); // 1
 ```
 
 #### Answer
+
 ```javascript
 function power(base, exp) {
   if (exp === 0) return 1;
@@ -19,18 +21,20 @@ function power(base, exp) {
 }
 ```
 
+## Exercise
 
-## Exercize
-Write a function that returns the factorial of a number. 
-As a quick refresher, a factorial of a number is the result of that number multiplied by the number before it, and the number before that number, and so on, until you reach 1. 
+Write a function that returns the factorial of a number.
+As a quick refresher, a factorial of a number is the result of that number multiplied by the number before it, and the number before that number, and so on, until you reach 1.
 The factorial of 1 is just 1.
 
 #### Sample
+
 ```javascript
 factorial(5); // 5 * 4 * 3 * 2 * 1 === 120
 ```
 
 #### Answer
+
 ```javascript
 function factorial(value) {
   if (value === 1) return 1;
@@ -39,18 +43,20 @@ function factorial(value) {
 factorial(5);
 ```
 
+## Exercise
 
-## Exercize
 Write a function called all which accepts an array and a callback and returns true if every value in the array returns true when passed as parameter to the callback function
 
 #### Sample
+
 ```javascript
-var allAreLessThanSeven = all([1,2,9], function(num){
+var allAreLessThanSeven = all([1, 2, 9], function(num) {
   return num < 7;
 }); // false
 ```
 
 #### Answer
+
 ```javascript
 function all([value, ...values], test) {
   if (!test(value)) return false;
@@ -62,17 +68,19 @@ var allAreLessThanSeven = all([1, 2, 3], function(num) {
 });
 ```
 
+## Exercise
 
-## Exercize
 Write a function called productOfArray which takes in an array of numbers and returns the product of them all
 
 #### Sample
+
 ```javascript
-var six = productOfArray([1,2,3]) // 6
-var sixty = productOfArray([1,2,3,10]) // 60
+var six = productOfArray([1, 2, 3]); // 6
+var sixty = productOfArray([1, 2, 3, 10]); // 60
 ```
 
 #### Answer
+
 ```javascript
 function productOfArray(array) {
   if (array.length === 0) return 1;
@@ -81,11 +89,12 @@ function productOfArray(array) {
 productOfArray([1, 2, 3, 10]); // 60
 ```
 
+## Exercise
 
-## Exercize
 Write a function called contains that searches for a value in a nested object. It returns true if the object contains that value.
 
 #### Sample
+
 ```javascript
 var nestedObject = {
   data: {
@@ -104,23 +113,24 @@ var nestedObject = {
 
 var nestedObject = {
   data: {
-      info: {
-          stuff: {
-              thing: {
-                  moreStuff: {
-                      magicNumber: 44,
-                      something: 'foo2'
-                  }
-              }
+    info: {
+      stuff: {
+        thing: {
+          moreStuff: {
+            magicNumber: 44,
+            something: "foo2"
           }
+        }
       }
+    }
   }
-}
+};
 let hasIt = contains(nestedObject, 44); // true
 let doesntHaveIt = contains(nestedObject, "foo"); // false
 ```
 
 #### Answer
+
 ```javascript
 var nestedObject = {
   data: {
