@@ -3,6 +3,7 @@
 - [Recursive functions](js/recursive-function.md)
 - [Hoisting](js/hoisting.md)
 - [Scope and Context](js/scope-context.md)
+- [Closures](js/closures.md)
 
 ## CSS
 
