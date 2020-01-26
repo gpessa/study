@@ -1,6 +1,6 @@
 ## Interesting Class
 
-```javascript
+```js
 class ChainAble {
   firstMethod() {
     console.log("This is the First Method");

@@ -4,7 +4,7 @@ Hoisting is JavaScript's default behavior of moving all declarations to the top 
 
 When we do something like:
 
-```javascript
+```js
 var foo = "bar";
 ```
 
@@ -18,7 +18,7 @@ Hosting works with functions too.
 
 Let see what happen in case of anonymous functions:
 
-```javascript
+```js
 console.log(a());
 
 var a = function() {
@@ -31,7 +31,7 @@ Whith this kind of function we do not have hosting and the code above would not 
 
 #### Sample
 
-```javascript
+```js
 console.log(foo);
 
 var foo;
@@ -41,7 +41,7 @@ This code do not create an error. The browser get the declaration on top and I g
 
 #### Sample
 
-```javascript
+```js
 foo = "bar";
 
 console.log(d);
@@ -54,7 +54,7 @@ The declaration is moved on the top and the code is valid.
 
 #### Sample
 
-```javascript
+```js
 foo = "bar";
 
 console.log(d);
@@ -67,7 +67,7 @@ The declaration is moved on the top and the code is valid.
 
 #### Sample
 
-```javascript
+```js
 console.log(foo());
 
 function foo() {

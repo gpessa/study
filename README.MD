@@ -6,7 +6,8 @@
 - [Closures](js/closures.md)
 - [Interesting Class](js/interesting-class.md)
 - [Pure functions](js/pure-functions.md)
-- [Regexp](js/regexp.md)
+- [Regexp Theory](js/regexp-theory.md)
+- [Regexp Exercise](js/regexp-exercise.md)
 
 ## CSS
 

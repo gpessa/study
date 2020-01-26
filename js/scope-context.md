@@ -22,7 +22,7 @@ For example, inside of a function, when you say: “this.accoutNumber”, you ar
 
 ### Sample
 
-```javascript
+```js
 var obj = {
   foo: function() {
     return this;

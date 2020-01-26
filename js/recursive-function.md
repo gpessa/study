@@ -4,7 +4,7 @@ Write a function called power which takes in a base and an exponent. If the expo
 
 #### Sample
 
-```javascript
+```js
 SAMPLE: power(2, 4); // 16
 power(2, 3); // 8
 power(2, 2); // 4
@@ -14,7 +14,7 @@ power(2, 0); // 1
 
 #### Answer
 
-```javascript
+```js
 function power(base, exp) {
   if (exp === 0) return 1;
   return base * power(base, --exp);
@@ -29,13 +29,13 @@ The factorial of 1 is just 1.
 
 #### Sample
 
-```javascript
+```js
 factorial(5); // 5 * 4 * 3 * 2 * 1 === 120
 ```
 
 #### Answer
 
-```javascript
+```js
 function factorial(value) {
   if (value === 1) return 1;
   return value * factorial(--value);
@@ -49,7 +49,7 @@ Write a function called all which accepts an array and a callback and returns tr
 
 #### Sample
 
-```javascript
+```js
 var allAreLessThanSeven = all([1, 2, 9], function(num) {
   return num < 7;
 }); // false
@@ -57,7 +57,7 @@ var allAreLessThanSeven = all([1, 2, 9], function(num) {
 
 #### Answer
 
-```javascript
+```js
 function all([value, ...values], test) {
   if (!test(value)) return false;
   if (values.length === 0) return true;
@@ -74,14 +74,14 @@ Write a function called productOfArray which takes in an array of numbers and re
 
 #### Sample
 
-```javascript
+```js
 var six = productOfArray([1, 2, 3]); // 6
 var sixty = productOfArray([1, 2, 3, 10]); // 60
 ```
 
 #### Answer
 
-```javascript
+```js
 function productOfArray(array) {
   if (array.length === 0) return 1;
   return array.shift() * productOfArray(array);
@@ -95,7 +95,7 @@ Write a function called contains that searches for a value in a nested object. I
 
 #### Sample
 
-```javascript
+```js
 var nestedObject = {
   data: {
     info: {
@@ -131,7 +131,7 @@ let doesntHaveIt = contains(nestedObject, "foo"); // false
 
 #### Answer
 
-```javascript
+```js
 var nestedObject = {
   data: {
     info: {
