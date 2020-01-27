@@ -8,6 +8,7 @@
 - [Pure functions](js/pure-functions.md)
 - [Regexp Theory](js/regexp-theory.md)
 - [Regexp Exercise](js/regexp-exercise.md)
+- [Basic Form Validation Exercise]()
 
 ## CSS
 
