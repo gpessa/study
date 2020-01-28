@@ -8,10 +8,12 @@
 - [Pure functions](js/pure-functions.md)
 - [Regexp Theory](js/regexp-theory.md)
 - [Regexp Exercise](js/regexp-exercise.md)
+- [Strict mode](js/strict-mode.md)
 
 ## CSS
 
 - [Font display](css/font-display.md)
+- [Box-sizing](css/box-sizing.md)
 
 ## General
 
