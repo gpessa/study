@@ -9,6 +9,7 @@
 - [Regexp Theory](js/regexp-theory.md)
 - [Regexp Exercise](js/regexp-exercise.md)
 - [Strict mode](js/strict-mode.md)
+- [Basic Form Validation Exercise]()
 
 ## CSS
 
