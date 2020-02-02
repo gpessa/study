@@ -20,9 +20,11 @@ class Tooltip {
 
   showTooltip() {
     clearTimeout(this.timeout);
+    w;
     if (this.tooltip) {
       this.tooltip.parentElement.removeChild(this.tooltip);
       delete this.tooltip;
+      w;
     }
 
     var text = this.elm.dataset.tooltip;

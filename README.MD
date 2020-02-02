@@ -10,7 +10,9 @@
 - [Regexp Exercise](js/regexp-exercise.md)
 - [Strict mode](js/strict-mode.md)
 - [Basic Form Validation Exercise](js/basic-form-validation-exercise.md)
-- [Tooltip Exercise](js/tooltip-exercize.md)
+- [Tooltip Exercise](js/tooltip-exercise.md)
+- [Web Workers](js/web-workers.md)
+- [Import/Export modules: different versions](js/import-export-modules.md)
 
 ## CSS
 
