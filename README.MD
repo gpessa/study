@@ -13,6 +13,9 @@
 - [Tooltip Exercise](js/tooltip-exercise.md)
 - [Web Workers](js/web-workers.md)
 - [Import/Export modules: different versions](js/import-export-modules.md)
+- [What’s the Difference Between Class & Prototypal Inheritance?](js/class-prototypal-inheritance.md)
+- [Exercise date overlap](js/date-overlap.md)
+- [Currying in JS](js/currying-in-js.md)
 
 ## CSS
 
@@ -24,6 +27,7 @@
 - [Terminal](general/terminal.md)
 - [HTTP Status Codes](general/http-status-codes.md)
 - [AB Testing](general/ab-testing.md)
+- [Security](general/security.md)
 
 ## Links to follow
 
