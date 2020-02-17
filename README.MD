@@ -16,6 +16,12 @@
 - [What’s the Difference Between Class & Prototypal Inheritance?](js/class-prototypal-inheritance.md)
 - [Exercise date overlap](js/date-overlap.md)
 - [Currying in JS](js/currying-in-js.md)
+- [Exercise find sum in array](js/find-sum-in-array.md)
+- [Bastard exercise](js/bastard-exercize.md)
+- [Scheduling: setTimeout and setInterval](js/scheduling-setTimeout-and-setInterval.md)
+- [Websocket](js/websocket.md)
+- [The old "var"](js/the-old-var.md)
+- [Implement some of the lodash function](js/lodash-functions.md)
 
 ## CSS
 
@@ -28,6 +34,7 @@
 - [HTTP Status Codes](general/http-status-codes.md)
 - [AB Testing](general/ab-testing.md)
 - [Security](general/security.md)
+- [SOLID](general/solid.md)
 
 ## Links to follow
 
