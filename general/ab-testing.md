@@ -8,3 +8,8 @@ In order to have good AB testing good principles are:
 - Provide data to the employees and listen to their hypothesis
 - Organize your workforce in small multidisciplinary teams that works on a small portion of the website so they can be expert on that matter and run small tests on those areas
 - Limit the risk and keep tests smalls so you can understand better what works and what no without rumors due to other tests that might lead to wrong conclusions
+
+Definitions:
+- *Control treatment*: is the actual situation
+- *Variant treatment*: is the hypothesis we are trying to understand if could works more
+- *Significant*: chance the result of a statistic is real and you reduce the false positive
