@@ -22,6 +22,7 @@
 - [Websocket](js/websocket.md)
 - [The old "var"](js/the-old-var.md)
 - [Implement some of the lodash function](js/lodash-functions.md)
+- [Exercise Stock Update Page](js/exercise_stock_update_page.md)
 
 ## CSS
 

@@ -28,19 +28,50 @@ function uniq(array) {
 
 #### Sample
 
+Creates a slice of array with `n` elements taken from the end.
+
 ```js
+takeRight([1, 2, 3], 2);
+// => [2, 3]
 ```
 
 #### Answer
 
 ```js
+var takeRight = (array, n) => array.slice(-n);
+
+result = takeRight([1, 2, 3]);
 ```
 
-If Type(x) is different from Type(y), return false.
-If Type(x) is Number, then
-If x is NaN and y is NaN, return true.
-If x is +0 and y is -0, return true.
-If x is -0 and y is +0, return true.
-If x is the same Number value as y, return true.
-Return false.
-Return SameValueNonNumber(x, y).
+## Exercise
+
+This method is like `pullAll` except that it accepts an array of values to remove.
+This method mutates array.
+
+#### Sample
+
+```js
+var array = ["a", "b", "c", "a", "b", "c"];
+pullAll(array, ["a", "c"]);
+// => ['b', 'b']
+```
+
+#### Answer
+
+```js
+var pullAll = (array, values) => {
+  for (let index = 0; index < values.length; index++) {
+    const value = values[index];
+    let fromIndex = 0;
+
+    while ((fromIndex = array.indexOf(value, fromIndex)) > -1) {
+      array.splice(fromIndex, 1);
+    }
+  }
+  return array;
+};
+
+var array = ["a", "a", 1, "a", 3, "n"];
+
+const result = pullAll(array, ["a", "c"]);
+```
