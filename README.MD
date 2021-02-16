@@ -26,6 +26,7 @@
 - [Exercise Stock Update Page](js/exercise-stock-update-page.md)
 - [Some React hooks](js/react-hooks.md)
 - [Fibonacci](js/fibonacci.md)
+- [Sum on array of numbers](js/sum-on-array-of-numbers.md)
 
 ## CSS
 
