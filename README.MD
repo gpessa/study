@@ -24,6 +24,8 @@
 - [The old "var"](js/the-old-var.md)
 - [Implement some of the lodash function](js/lodash-functions.md)
 - [Exercise Stock Update Page](js/exercise-stock-update-page.md)
+- [Some React hooks](js/react-hooks.md)
+- [Fibonacci](js/fibonacci.md)
 
 ## CSS
 
